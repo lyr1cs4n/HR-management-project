@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="project 3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/project 3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/project 3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/cash.h" />
+		<Unit filename="include/check.h" />
+		<Unit filename="include/company.h" />
+		<Unit filename="include/credit.h" />
+		<Unit filename="include/customers.h" />
+		<Unit filename="include/main_customers.h" />
+		<Unit filename="include/order.h" />
+		<Unit filename="include/orderitem.h" />
+		<Unit filename="include/payment.h" />
+		<Unit filename="include/person.h" />
+		<Unit filename="include/product.h" />
+		<Unit filename="include/stock.h" />
+		<Unit filename="include/transaction.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/cash.cpp" />
+		<Unit filename="src/check.cpp" />
+		<Unit filename="src/company.cpp" />
+		<Unit filename="src/credit.cpp" />
+		<Unit filename="src/customers.cpp" />
+		<Unit filename="src/main_customers.cpp" />
+		<Unit filename="src/order.cpp" />
+		<Unit filename="src/orderitem.cpp" />
+		<Unit filename="src/payment.cpp" />
+		<Unit filename="src/person.cpp" />
+		<Unit filename="src/product.cpp" />
+		<Unit filename="src/stock.cpp" />
+		<Unit filename="src/transaction.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
